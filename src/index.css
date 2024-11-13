@@ -1,0 +1,16 @@
+@import url("./App.css");
+
+:root {
+  --white-100: #fff;
+  --background-gray: #f6f7f8;
+}
+
+body {
+  font-family: iranyekan;
+  direction: rtl;
+  font-style: normal;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-gray);
+}
