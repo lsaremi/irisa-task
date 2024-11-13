@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Target latest ECMAScript features
+    "module": "esnext", // Use ESNext module syntax for compatibility with React
+    "lib": ["dom", "dom.iterable", "esnext"], // Include DOM and ES features
+    "jsx": "react-jsx", // Ensure React JSX support
+    "strict": true, // Enable strict type checking for best practices
+    "moduleResolution": "node", // Module resolution strategy to match Node.js
+    "esModuleInterop": true, // Enable compatibility with ES6 modules
+    "skipLibCheck": true, // Skip library checks for faster compilation
+    "forceConsistentCasingInFileNames": true // Ensure consistent file naming
+  },
+  "include": ["src"], // Include all files in the src folder
+  "exclude": ["node_modules"] // Exclude node_modules
+}
